@@ -1,8 +1,16 @@
+import { useLocation } from 'react-router-dom';
+
 const Footer = () => {
+    const location = useLocation();
+
+    if (location.pathname === '/contact-us') {
+        return null;
+    }
+
     return (
-        <div className="flex flex-wrap justify-center py-1 mt-52">
+        <div className="flex flex-wrap w-screen justify-center py-1 mt-28 bg-white text-center">
             <div className="w-full border-b mb-4"></div>
-            <div className="w-full flex flex-wrap text-center  px-16 justify-between">
+            <div className="w-full flex flex-wrap text-center px-16 justify-between">
                 <div className="p-2">
                     <ul>
                         <li className="mb-2">
@@ -23,10 +31,9 @@ const Footer = () => {
                     <a href="https://www.instagram.com/pictetgroup/?hl=en" target="_blank" className="w-1/4 p-2">
                         a                    </a>
                 </div> */}
-
             </div>
         </div>
+    );
+};
 
-    )
-}
 export default Footer;

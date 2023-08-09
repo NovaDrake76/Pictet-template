@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
     const [offsetY, setOffsetY] = useState(0);
@@ -20,7 +21,7 @@ const Hero: React.FC = () => {
                         </span>
                         <div className="flex flex-col mt-40 mb-20 gap-4">
                             <h1 className="text-3xl md:text-5xl ">Stability. Our answer to global instability.</h1>
-                            <span className='text-[#804940] underline'>Learn more</span>
+                            <Link to="/our-approach" className='text-[#804940] underline'>Learn more</Link>
                         </div>
                     </div>
                 </div>

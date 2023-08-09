@@ -10,15 +10,16 @@ const Navbar: React.FC = () => {
 
     return (
         <div className="fixed top-0 left-0 w-full z-50 bg-white border-b border-[#cfcfcf] h-[70px]">
-            <div className="max-w-[1920px] mx-auto flex items-center justify-between h-16 px-8">
+            <div className="max-w-[1920px] mx-auto flex items-center justify-between h-16 px-16">
                 <Link to="/" className="logo">
-                    <img src="https://www.pictet.com/etc.clientlibs/picdev/clientlibs/clientlib-site/resources/images/logo_2.svg" alt="logo" />
+                    <img src="/logo_black.png" alt="logo" width={100} />
                 </Link>
                 <div className="hidden md:flex gap-8">
                     {[
                         { to: "/our-approach", label: "Our Approach" },
                         { to: "/who-we-serve", label: "Who we serve" },
                         { to: "/why-choose-us", label: "Why choose us" },
+                        { to: "/contact-us", label: "Contact us" }
                     ].map((link) => (
                         <Link key={link.to} to={link.to} className="text-gray-800">
                             {link.label}
