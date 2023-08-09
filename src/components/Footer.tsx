@@ -12,7 +12,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="w-[125px] p-2 flex flex-wrap">
+                {/* <div className="w-[125px] p-2 flex flex-wrap">
                     <a href="https://www.linkedin.com/company/the-pictet-group" target="_blank" className="w-1/4 p-2">
                         a
                     </a>
@@ -22,7 +22,7 @@ const Footer = () => {
                         a                    </a>
                     <a href="https://www.instagram.com/pictetgroup/?hl=en" target="_blank" className="w-1/4 p-2">
                         a                    </a>
-                </div>
+                </div> */}
 
             </div>
         </div>
