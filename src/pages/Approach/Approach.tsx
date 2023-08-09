@@ -31,7 +31,7 @@ const Approach = () => {
                             return (
                                 <div className="flex flex-col border-gray-400 pb-2 gap-4 px-4" key={index}>
                                     <div className="text-xl">{item.title}</div>
-                                    <div className="text-lg max-w-[400px] h-[400px] pb-8 border-b">{item.subtitle}</div>
+                                    <div className="text-lg max-w-[400px] min-h-[400px] pb-8 border-b">{item.subtitle}</div>
                                 </div>
                             );
                         })
