@@ -24,7 +24,7 @@ const MainTextComponent: React.FC<Props> = ({ title, content }) => {
             if (!originalTitleTop && titleTop > 0) {
                 setOriginalTitleTop(scrollTop + titleTop);
             }
-            if (originalTitleTop && scrollTop + 100 >= originalTitleTop && containerBottom >= 100) {
+            if (originalTitleTop && scrollTop + 100 >= originalTitleTop && containerBottom - 100 >= 100) {
                 setSticky(true);
             } else {
                 setSticky(false);
