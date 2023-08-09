@@ -16,11 +16,9 @@ const Hero: React.FC = () => {
             <div className='flex w-screen justify-center'>
                 <div className="relative flex flex-col w-full max-w-[1920px] z-10">
                     <div className="max-w-screen-xl bg-white px-4 md:px-16">
-                        <span>
-                            Pictet | Leading independent investment firm
-                        </span>
-                        <div className="flex flex-col mt-40 mb-20 gap-4">
-                            <h1 className="text-3xl md:text-5xl ">Stability. Our answer to global instability.</h1>
+
+                        <div className="flex flex-col mt-20 mb-40 gap-4">
+                            <h1 className="text-3xl md:text-5xl ">We find exceptional talent.</h1>
                             <Link to="/our-approach" className='text-[#804940] underline'>Learn more</Link>
                         </div>
                     </div>

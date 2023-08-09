@@ -15,7 +15,7 @@ const Footer = () => {
                     <ul>
                         <li className="mb-2">
                             <div className="text-gray-700">
-                                <div>©2023, Pictet Group</div>
+                                <div>©2023, Berkswell Keller</div>
                             </div>
                         </li>
                     </ul>

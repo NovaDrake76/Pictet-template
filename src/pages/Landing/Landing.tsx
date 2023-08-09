@@ -4,32 +4,32 @@ const Landing = () => {
 
     const data = [
         {
-            value: 657,
-            unit: 'BN USD',
-            description: 'Assets under management or custody*'
-        },
-        {
-            value: 27.4,
-            unit: 'Percent',
-            description: 'Total capital ratio*'
-        },
-        {
-            value: 176,
-            unit: 'Percent',
-            description: 'Liquidity coverage ratio*'
-        },
-        {
-            value: '5300+',
+            value: '750+',
             unit: '',
-            description: 'Full-time equivalent employees'
-        }
+            description: 'Past and previous clients*'
+        },
+        {
+            value: 38,
+            unit: '',
+            description: 'Full-time specialists'
+        },
+        {
+            value: '5000+',
+            unit: '',
+            description: 'Talents recruited'
+        },
+        // {
+        //     value: '5300+',
+        //     unit: '',
+        //     description: 'Talents recruited '
+        // }
     ]
 
     const RightContent = () => {
         return (
             <div className="flex flex-col gap-16">
                 <div className="flex text-md md:text-2xl py-4 md:py-0">
-                    We are a leading independent investment firm with more than two hundred years’ experience. As long-term investors, we aim to direct capital to the real economy in a manner that improves the state of the planet. We do this by building responsible partnerships with our clients and the companies in which we invest.
+                    Berkswell Keller is dedicated to offering comprehensive human resources solutions tailored to the unique needs of emerging stealth startups. Our team of experienced professionals understands the challenges and intricacies that stealth startups face in their early stages. From talent acquisition and onboarding to performance management and organizational development, we work closely with founders and leadership teams to ensure that their human capital strategies align with their business objectives.
                 </div>
                 <div className="flex flex-wrap">
                     {
@@ -63,7 +63,7 @@ const Landing = () => {
     return (
         <div className="flex flex-col">
             <Hero />
-            <Text title={'About Pictet'} content={RightContent} />
+            <Text title={'About Berkswell'} content={RightContent} />
         </div>
     )
 }
