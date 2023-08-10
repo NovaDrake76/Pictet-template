@@ -9,15 +9,14 @@ const Contact: React.FC = () => {
                         Contact Us
                     </h2>
                     <p className="mt-2 text-center text-sm text-gray-600">
-                        Have any questions? We would love to hear from you.
-                    </p>
+                        If you are a stealth startup looking for exceptional talent, we would love to offer you our services.                    </p>
                 </div>
                 <div className="mt-8 text-center">
                     <h3 className="text-xl font-semibold text-gray-700">
                         Email Us At:
                     </h3>
                     <a href="mailto:info@example.com" className="text-blue-500">
-                        info@example.com
+                        ofice@berkswell-keller.com
                     </a>
                 </div>
             </div>

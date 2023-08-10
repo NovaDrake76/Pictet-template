@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
                 <div className="hidden md:flex gap-8">
                     {[
                         { to: "/our-approach", label: "Our Approach" },
-                        { to: "/who-we-serve", label: "Who we serve" },
+                        // { to: "/who-we-serve", label: "Who we serve" },
                         { to: "/why-choose-us", label: "Why choose us" },
                         { to: "/contact-us", label: "Contact us" }
                     ].map((link) => (

@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import Landing from "./pages/Landing/Landing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Serve from "./pages/Serve/Serve";
+// import Serve from "./pages/Serve/Serve";
 import Choose from "./pages/Choose/Choose";
 import Approach from "./pages/Approach/Approach";
 import Contact from "./pages/Contact";
@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/our-approach" element={<Approach />} />
-          <Route path="/who-we-serve" element={<Serve />} />
+          {/* <Route path="/who-we-serve" element={<Serve />} /> */}
           <Route path="/why-choose-us" element={<Choose />} />
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
