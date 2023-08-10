@@ -40,8 +40,9 @@ const Navbar: React.FC = () => {
                     <div className="flex flex-col space-y-4 p-8">
                         {[
                             { to: "/our-approach", label: "Our Approach" },
-                            { to: "/who-we-serve", label: "Who we serve" },
+                            // { to: "/who-we-serve", label: "Who we serve" },
                             { to: "/why-choose-us", label: "Why choose us" },
+                            { to: "/contact-us", label: "Contact us" }
                         ].map((link) => (
                             <Link key={link.to} to={link.to} className="text-gray-800 text-xl border-b" onClick={toggleMenu}>
                                 {link.label}
