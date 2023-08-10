@@ -28,8 +28,39 @@ const Approach = () => {
     ];
 
 
+    const RightContent = () => {
+        return (
+            <div className="flex flex-col gap-16">
+                <div className="flex text-md md:text-2xl py-4 md:py-0">
+                    Berkswell Keller takes pride in being a strategic partner for stealth startups on their journey to success. Our emphasis on human resources stems from the understanding that a startup's greatest asset is its people. By providing targeted HR solutions, we empower startups to build strong, cohesive teams that drive innovation and growth. We leverage our expertise to help startups identify and attract top-tier talent even within the constraints of stealth mode.                </div>
+                <div className="flex flex-wrap">
+                    {
+                        ['Strategic', 'Empowering', 'Innovative'].map((item, index) => {
+                            return (
+                                <div className="px-4 md:px-12 border-r w-[160px] md:w-[200px]">
+                                    <div className="flex flex-col items-center max-w-[150px]" key={index}>
+                                        <div className="text-3xl text-[#93645d]">
+                                            {item}
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            )
+                        })
+                    }
+                </div>
+
+            </div>
+        )
+    }
+
+
     return (
         <div className="flex flex-col mt-16">
+            <Text title={'Our Approach'} content={RightContent} />
             {contentSections.map((section, index) => (
                 <Text
                     key={index}

@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Choose from "./pages/Choose/Choose";
 import Approach from "./pages/Approach/Approach";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./assets/Scroll";
 import {
   BrowserRouter,
   Route,
@@ -19,6 +20,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen justify-between">
         <Navbar />
         <Routes>
